@@ -1,0 +1,30 @@
+:root {
+    --azul: #3772FF;
+    --verde: #36D6AD;
+    --coral: #FC7071;
+    --coral-claro: #FF9D9E;
+    --creme: #FCF0E3;
+    --cinza-escuro: #737380;
+    --cinza-medio: #BCBCBC;
+    --cinza-claro: #F7F7F7;
+    --cinza-claro--fundos: #F6F6F6;
+    --branco: #FFFFFF;
+    --preto: #000000;
+    --preto-15: #00000026;
+    --preto-25: #00000040;
+
+
+
+    --familia-corpo: 'Poppins', sans-serif;
+
+    --tamanho-titulo: 1.625rem;
+    --tamanho-destaque: 1.3125rem;
+    --tamanho-corpo: 1rem;
+    --tamanho-legenda: 0.75rem;
+    --tamanho-input: 0.75rem;
+    --tamanho-input-alternativo: 0.875rem;
+
+    --peso-titulo: 500;
+    --peso-destaque: 600;
+    --peso-corpo: 400;
+}

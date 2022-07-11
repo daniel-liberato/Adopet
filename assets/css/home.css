@@ -1,0 +1,25 @@
+body {
+    background: 
+        url(../img/background-superior.png) no-repeat top left, 
+        var(--branco);
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+
+    box-sizing: border-box;
+}
+
+.home__titulo {
+    color: var(--azul);
+    text-align: center;
+    line-height: 20px;
+
+    padding: 0 4.1875rem;
+    
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}

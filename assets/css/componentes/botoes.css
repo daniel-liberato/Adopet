@@ -1,0 +1,32 @@
+.botao {
+    background-color: var(--coral);
+
+    text-align: center;
+    font-family: inherit;
+    font-size: var(--tamanho-corpo);
+    font-weight: var(--peso-destaque);
+    color: var(--branco);
+    line-height: 24px;
+
+    width: 148px;
+    height: 40px;
+
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+    margin-bottom: 1rem;
+
+    border-radius: 6px;
+    border: none;
+
+    box-sizing: border-box;
+}
+
+.botao--grande {
+    box-shadow: 2px 2px 4px var(--preto-25);
+    width: 180px;
+}
+
+.botao:hover {
+    background-color: var(--coral-claro);
+}

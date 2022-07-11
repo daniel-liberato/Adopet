@@ -1,0 +1,64 @@
+body {
+    background: 
+        url(../img/background-superior.png) no-repeat top left, 
+        var(--branco);
+}
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+
+    box-sizing: border-box;
+}
+
+.perfil__texto {
+    color: var(--azul);
+    text-align: center;
+    line-height: 20px;
+
+    padding: 0 3.5rem;
+    
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.perfil__titulo {
+    color: var(--cinza-escuro);
+    text-align: center;
+    line-height: 24px;
+
+    font-family: var(--familia-corpo);
+    font-size: var(--tamanho-destaque);
+    font-weight: var(--peso-destaque);
+
+    margin-bottom: 1rem;
+}
+
+.perfil__foto-usuario {
+    width: 80px;
+    height: 80px;
+
+    margin-bottom: 0.25rem;
+
+    align-self: center;
+}
+
+.perfil__legenda {
+    font-size: var(--tamanho-legenda);
+    font-weight: var(--peso-corpo);
+    color: var(--coral);
+    
+    line-height: 24px;
+    
+    margin-bottom: 0.3125rem;
+
+    display: block;
+
+    align-self: center;
+}
+
+.perfil__botao {
+    align-self: center;
+}

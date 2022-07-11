@@ -1,0 +1,14 @@
+.formulario {
+    padding: 2rem 1rem 1rem 1rem;
+
+    margin: 0 1.5rem 1rem 1.5rem;
+
+    background-color: var(--cinza-claro);
+
+    box-sizing: border-box;
+
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,44 @@
+body {
+    background: 
+        url(../img/Patas.png) no-repeat top right,
+        url(../img/background-superior.png) no-repeat top left, 
+        url(../img/background-esquerda.png) no-repeat top 368px left, 
+        var(--branco);
+}
+
+.cadastro {
+    color: var(--azul);
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.cadastro__logo {
+    margin-top: 2.25rem;
+
+    margin-bottom: 1.5rem;
+}
+
+.cadastro__titulo {
+    line-height: 21px;
+    
+    margin-bottom: 0.5rem;
+}
+
+.cadastro > .texto {
+    line-height: 21px;
+    
+    padding: 0 1.5rem;
+
+    margin-bottom: 1.5rem;
+}
+
+.cadastro__formulario {
+    padding: 0 1.5rem;
+
+    margin-bottom: 5.5rem;
+}

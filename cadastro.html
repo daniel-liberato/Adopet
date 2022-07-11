@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastro | Adopet</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/base/base.css">
+        <link rel="stylesheet" href="assets/css/cadastro.css">
+        <link rel="stylesheet" href="assets/css/componentes/cabecalho.css">
+        <link rel="stylesheet" href="assets/css/componentes/botoes.css">
+        <link rel="stylesheet" href="assets/css/componentes/input.css">
+        <link rel="stylesheet" href="assets/css/componentes/rodape.css">
+    </head>
+    <body>
+        <header class="cabecalho">
+            <nav class="menu">
+                <a href="index.html" class="cabecalho__icone--casa"><img src="assets/img/icones/casa.png" alt="Ícone Home"></a>
+                <a href="mensagem.html" class="cabecalho__icone--mail"><img src="assets/img/icones/mail.png" alt="Ícone Mensagem" ></a>
+            </nav>
+        </header>
+        <main>
+            <section class="cadastro">
+                <img src="assets/img/Logo-menor.png" alt="Logo da Adopet" class="cadastro__logo">
+                <h1 class="cadastro__titulo">Ainda não tem cadastro?</h1>
+                <p class="texto">Então, antes de buscar seu melhor amigo, precisamos de alguns dados:</p>
+                <form action="#" class="cadastro__formulario">
+                    <label for="mail" class="input__rotulo">Email</label>
+                    <input id="mail" type="email" class="input" placeholder="Escolha seu melhor email">
+                    <label for="nome" class="input__rotulo">Nome</label>
+                    <input id="nome" type="text" class="input" placeholder="Digite seu nome completo">
+                    <label for="senha" class="input__rotulo">Senha</label>
+                    <input id="senha" type="password" class="input input__icone--senha" placeholder="Crie uma senha">
+                    <label for="senha-validacao" class="input__rotulo">Confirma sua senha</label>
+                    <input id="senha-validacao" type="password" class="input input__icone--senha" placeholder="Repita a senha criada acima">
+                    <button type="submit" class="botao">Cadastrar</button>
+                </form>
+            </section>
+        </main>
+        <footer class="rodape">
+            <p class="rodape__texto">2022 - Desenvolvido por Alura.</p>
+        </footer>
+    </body>
+</html>

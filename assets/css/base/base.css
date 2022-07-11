@@ -1,0 +1,30 @@
+@import url(_reset.css);
+@import url(_variaveis.css);
+
+
+body {
+    font-family: var(--familia-corpo);
+    font-size: var(--tamanho-corpo);
+    font-weight: var(--peso-corpo);
+}
+
+.titulo {
+    font-size: var(--tamanho-titulo);
+    font-weight: var(--peso-titulo);
+    line-height: 48px;
+}
+
+.destaque {
+    font-size: var(--tamanho-destaque);
+    font-weight: var(--peso-destaque);
+}
+
+.texto {
+    line-height: 21px;
+}
+
+.texto--legenda {
+    font-size: var(--tamanho-legenda);
+    color: var(--coral);
+    line-height: 1.5rem;
+}

@@ -1,0 +1,54 @@
+body {
+    background: 
+        url(../img/Patas.png) no-repeat top right,
+        url(../img/background-superior.png) no-repeat top left, 
+        url(../img/background-esquerda.png) no-repeat top 368px left, 
+        var(--branco);
+}
+
+.login {
+    color: var(--azul);
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.login__logo {
+    margin-top: 2.25rem;
+
+    margin-bottom: 3.5rem;
+}
+
+.login__titulo {
+    line-height: 21px;
+    
+    margin-bottom: 2.625rem;
+}
+
+.login__link {
+    font-size: var(--tamanho-legenda);
+    font-weight: var(--peso-corpo);
+    color: var(--coral);
+    
+    line-height: 24px;
+    
+    text-decoration: underline;
+
+    margin-bottom: 1.5rem;
+
+    display: block;
+}
+
+.login__formulario {
+    padding: 0 1.5rem;
+
+    margin-bottom: 14.5rem;
+}
+
+.login__formulario > #senha {
+    margin-bottom: 0.5rem !important;
+}

@@ -1,0 +1,39 @@
+.cabecalho {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+
+    padding-right: 2.3125rem;
+    padding-left: 3rem;
+
+    box-sizing: border-box;
+
+    width: 100%;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: auto 3.66rem auto 1fr auto;
+    align-items: center;
+
+    height: 40px;
+
+    box-sizing: border-box;
+}
+
+.cabecalho__icone--casa {
+    line-height: 0;
+
+    grid-column: 1 / 1;
+}
+
+.cabecalho__icone--mail {
+    line-height: 0;
+
+    grid-column: 3 / 3;
+}
+
+.cabecalho__icone--usuario {
+    line-height: 0;
+
+    grid-column: 5 / 5;
+}

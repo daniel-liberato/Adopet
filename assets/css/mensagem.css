@@ -1,0 +1,29 @@
+body {
+    background: 
+        url(../img/background-superior.png) no-repeat top left, 
+        var(--branco);
+}
+
+.mensagem {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+
+    box-sizing: border-box;
+}
+
+.mensagem__titulo {
+    color: var(--azul);
+    text-align: center;
+    line-height: 20px;
+
+    padding: 0 4.1875rem;
+    
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.mensagem__botao {
+    align-self: center;
+}

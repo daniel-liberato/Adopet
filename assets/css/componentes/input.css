@@ -1,0 +1,83 @@
+.input {
+    color: var(--cinza-escuro);
+    font-family: inherit;
+    font-size: var(--tamanho-input);
+    text-align: center;
+
+    width: 100%;
+    
+    padding: 0.75rem 1rem;
+
+    margin-bottom: 1.25rem;
+
+    background-color: var(--cinza-claro);    
+
+    box-sizing: border-box;
+    box-shadow: 0 2px 2px var(--preto-15) ;
+
+    border: none;
+    border-radius: 6px;
+}
+
+.input::placeholder {
+    color: var(--cinza-medio);
+}
+
+.input--alternativo {
+    font-size: var(--tamanho-input-alternativo);
+    text-align: left;
+
+    padding-right: 0.75rem;
+
+    margin-bottom: 1rem;
+
+    background-color: var(--branco);
+
+    box-shadow: 0 2px 4px var(--preto-15) ;
+}
+
+.input--text-area {
+    line-height: 24px;
+    
+    min-height: 176px;
+
+    padding: 1rem;
+    
+    margin-bottom: 2rem;
+
+    resize: none;
+}
+
+.input__icone--senha {
+    padding-right: 3rem;
+    background-position: right 1rem center;
+    background-repeat: no-repeat;
+    background-image: url(../../img/icones/senha.png);
+}
+
+.input__rotulo {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: var(--peso-corpo);
+    text-align: center;
+    line-height: 24px;
+
+    display: inline-block;
+
+    color: var(--cinza-escuro);
+
+    margin-bottom: 0.25rem;
+}
+
+.input__rotulo--alternativo {
+    font-weight: var(--peso-destaque);
+    text-align: left;
+
+    color: var(--azul);
+
+    margin-bottom: 0.5rem;
+}
+
+.input__rotulo--text-area {
+    margin-bottom: 1rem;
+}
