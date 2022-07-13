@@ -17,6 +17,9 @@ body {
 }
 
 .chamada__logo {
+    width: 186.67px;
+    height: 46px;
+
     margin-top: 3rem;
 
     margin-bottom: 1.5rem;
@@ -26,14 +29,67 @@ body {
     margin-bottom: 1rem;
 }
 
-.chamada > .texto {
+.chamada__texto--mobile {
+    width: 248px;
+
     line-height: 24px;
     
-    padding: 0 3.5rem;
-
     margin-bottom: 1.5rem;
+
+    display: inline-block;
+}
+
+.chamada__texto--tablet {
+    display: none;
 }
 
 .chamada__imagem {
     width: 247.34px;
+    height: 312.77px;
+
+    margin-top: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background: 
+        url(../img/background-superior-tablet.png) no-repeat top left, 
+        url(../img/background-direita-tablet.png) no-repeat top 268px right, 
+        var(--azul);
+    }
+
+    .chamada__logo {
+        width: 251.59px;
+        height: 62px;
+
+        margin-top: 8rem;
+    
+        margin-bottom: 2.5rem;
+    }
+
+    .chamada > .titulo {
+        margin-bottom: 1.5rem;
+    }
+
+    .chamada__texto--mobile {
+        display: none;
+    }
+    
+    .chamada__texto--tablet {
+        font-size: 18px;
+        line-height: 26px;
+
+        width: 344px;
+                
+        margin-bottom: 2.375rem;
+
+        display: inline-block;
+    }
+
+    .chamada__imagem {
+        width: 338.28px;
+        height: 422px;
+
+        margin-top: 2.25rem;
+    }
 }

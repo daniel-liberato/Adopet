@@ -12,7 +12,7 @@
 
 .menu {
     display: grid;
-    grid-template-columns: auto 3.66rem auto 1fr auto;
+    grid-template-columns: auto auto 3.66rem auto 1fr auto;
     align-items: center;
 
     height: 40px;
@@ -20,20 +20,49 @@
     box-sizing: border-box;
 }
 
+.cabecalho__logo {
+    display: none;
+
+    line-height: 0;
+
+    margin-right: 4rem;
+
+    grid-column: 1 / 1;
+}
+
 .cabecalho__icone--casa {
     line-height: 0;
 
-    grid-column: 1 / 1;
+    grid-column: 2 / 2;
 }
 
 .cabecalho__icone--mail {
     line-height: 0;
 
-    grid-column: 3 / 3;
+    grid-column: 4 / 4;
 }
 
 .cabecalho__icone--usuario {
     line-height: 0;
 
-    grid-column: 5 / 5;
+    grid-column: 6 / 6;
+}
+
+.menu__link {
+    fill: var(--branco);
+}
+
+.menu__link:hover {
+    fill: var(--coral);
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho {
+        padding-top: 4rem;
+    }
+
+    .cabecalho__logo {
+        display: inline-block;
+    }
+
 }

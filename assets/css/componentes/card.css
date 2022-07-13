@@ -10,10 +10,11 @@
 }
 
 .card__imagem {
-    margin: 0.5rem;
+    margin: 0.5rem 0.5rem 0.5rem 0;
 }
 
 .card__conteudo {
+    width: 148px;
     font-family: inherit;
     font-weight: var(--peso-corpo);
     color: var(--cinza-escuro);
@@ -68,3 +69,4 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
+

@@ -18,8 +18,10 @@ body {
 }
 
 .login__logo {
-    margin-top: 2.25rem;
+    width: 142.54px;
+    height: 34.36px;
 
+    margin-top: 2.25rem;
     margin-bottom: 3.5rem;
 }
 
@@ -51,4 +53,36 @@ body {
 
 .login__formulario > #senha {
     margin-bottom: 0.5rem !important;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background:
+        url(../img/Patas-tablet.png) no-repeat top right, 
+        url(../img/background-superior-tablet.png) no-repeat top left, 
+        url(../img/background-direita-tablet.png) no-repeat top 268px right, 
+        var(--branco);
+    }
+
+    .login__logo {
+        width: 251.59px;
+        height: 62px;
+    
+        margin-top: 6.6875rem;
+    
+        margin-bottom: 2.5rem;
+    }
+
+    .login__titulo {
+        font-size: 18px;
+        line-height: 21px;
+        
+        margin-bottom: 2.5rem;
+    }
+
+    .login__formulario {
+        padding: 0 13.25rem;
+    
+        margin-bottom: 26.125rem;
+    }
 }
