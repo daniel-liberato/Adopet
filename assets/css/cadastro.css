@@ -110,7 +110,9 @@ body {
     }
 
     .cadastro__formulario {
-        padding: 0 27.75rem;
+        width: 552px;
+
+        padding: 0;
     
         margin-bottom: 8.4375rem;
     }

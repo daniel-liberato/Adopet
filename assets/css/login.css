@@ -110,7 +110,9 @@ body {
     }
 
     .login__formulario {
-        padding: 0 27.75rem;
+        width: 552px;
+
+        padding: 0;
     
         margin-bottom: 21rem;
     }
@@ -118,4 +120,14 @@ body {
     .login__formulario > .botao {
         font-weight: var(--peso-destaque-desktop);
     }
+
+    #senha {
+        width: 362px;
+
+        display: block;
+
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }
