@@ -18,3 +18,9 @@
         margin: 0;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .formulario {
+        padding: 2rem 1.875rem 1rem 1.875rem;
+    }
+}

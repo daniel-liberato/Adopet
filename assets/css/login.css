@@ -21,7 +21,7 @@ body {
     width: 142.54px;
     height: 34.36px;
 
-    margin-top: 2.25rem;
+    margin-top: 5.4rem;
     margin-bottom: 3.5rem;
 }
 
@@ -68,7 +68,7 @@ body {
         width: 251.59px;
         height: 62px;
     
-        margin-top: 6.6875rem;
+        margin-top: 10rem;
     
         margin-bottom: 2.5rem;
     }
@@ -84,5 +84,38 @@ body {
         padding: 0 13.25rem;
     
         margin-bottom: 26.125rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        background:
+        url(../img/Patas-desktop.png) no-repeat top right, 
+        url(../img/background-superior-tablet.png) no-repeat top left, 
+        url(../img/background-direita-tablet.png) no-repeat top 180px right, 
+        var(--branco);
+    }
+
+    .login__logo {
+        width: 259.71px;
+        height: 64px;
+    
+        margin-top: 2.75rem;
+    
+        margin-bottom: 4rem;
+    }
+
+    .login__titulo {
+        margin-bottom: 4.5rem;
+    }
+
+    .login__formulario {
+        padding: 0 27.75rem;
+    
+        margin-bottom: 21rem;
+    }
+
+    .login__formulario > .botao {
+        font-weight: var(--peso-destaque-desktop);
     }
 }

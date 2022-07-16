@@ -47,3 +47,13 @@
         padding-bottom: 0.75rem;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .botao {
+        width: 174px;
+     }
+
+    .botao--grande {
+        width: 362px;
+    }
+}

@@ -24,7 +24,9 @@
     --tamanho-input: 0.75rem;
     --tamanho-input-alternativo: 0.875rem;
 
+    --peso-corpo: 400;
     --peso-titulo: 500;
     --peso-destaque: 600;
-    --peso-corpo: 400;
+    --peso-destaque-desktop: 700;
+
 }

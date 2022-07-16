@@ -103,6 +103,8 @@
    
         resize: none;
 
+        padding: 1rem;
+
         margin-bottom: 2rem;
     }
 
@@ -120,4 +122,22 @@
         margin-bottom: 0.5rem;
     }
 
+}
+
+@media screen and (min-width: 1440px) {
+    .input {
+        font-size: 16px;
+
+        padding: 0.4375rem 1rem;
+    }
+
+    .input--alternativo {
+        font-size: 14px;
+    }
+
+    .input--text-area {
+        font-size: 14px;
+
+        padding: 1rem;
+    }
 }

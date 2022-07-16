@@ -21,7 +21,7 @@ body {
     width: 142.54px;
     height: 34.36px;
 
-    margin-top: 2.25rem;
+    margin-top: 5.4rem;
     margin-bottom: 1.5rem;
 }
 
@@ -58,7 +58,7 @@ body {
         width: 251.59px;
         height: 62px;
     
-        margin-top: 6.6875rem;
+        margin-top: 10rem;
     
         margin-bottom: 2.5rem;
     }
@@ -84,5 +84,49 @@ body {
 
     .cadastro__formulario > .botao {
         margin-top: 1rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        background:
+        url(../img/Patas-desktop.png) no-repeat top right, 
+        url(../img/background-superior-tablet.png) no-repeat top left, 
+        url(../img/background-direita-tablet.png) no-repeat top 180px right, 
+        var(--branco);
+    }
+
+    .cadastro__logo {
+        width: 259.71px;
+        height: 64px;
+    
+        margin-top: 2.75rem;
+    }
+
+    .cadastro > .texto {
+        width: 38.33%;
+    
+        margin-bottom: 3rem;
+    }
+
+    .cadastro__formulario {
+        padding: 0 27.75rem;
+    
+        margin-bottom: 8.4375rem;
+    }
+
+    .cadastro__formulario > .botao {
+        margin-top: 0.5rem;
+
+        font-weight: var(--peso-destaque-desktop);
+    }
+
+    #senha, #senha-validacao {
+        width: 362px;
+
+        display: block;
+
+        margin-left: auto;
+        margin-right: auto;
     }
 }

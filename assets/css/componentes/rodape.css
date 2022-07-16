@@ -13,3 +13,9 @@
     font-weight: var(--peso-corpo);
     line-height: 24px;
 }
+
+@media screen and (min-width: 1440px) {
+    .rodape {
+        padding: 1.75rem 0;
+    }
+}

@@ -20,7 +20,7 @@ body {
     width: 186.67px;
     height: 46px;
 
-    margin-top: 3rem;
+    margin-top: 6.185rem;
 
     margin-bottom: 1.5rem;
 }
@@ -62,7 +62,7 @@ body {
         width: 251.59px;
         height: 62px;
 
-        margin-top: 8rem;
+        margin-top: 11.5rem;
     
         margin-bottom: 2.5rem;
     }
@@ -90,6 +90,36 @@ body {
         width: 338.28px;
         height: 422px;
 
-        margin-top: 2.25rem;
+        margin-top: 1.5rem;
     }
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        background: 
+        url(../img/background-superior-tablet.png) no-repeat top left, 
+        url(../img/background-direita-tablet.png) no-repeat center right, 
+        var(--azul);
+    }
+
+    .chamada__logo {
+        width: 259.71px;
+        height: 64px;
+
+        margin-top: 2.75rem;
+    }
+
+    .chamada__texto--tablet {
+        width: 488px;
+                
+        margin-bottom: 2rem;
+    }
+
+    .chamada__imagem {
+        width: 346px;
+        height: 431.63px;
+
+        margin-top: 1rem;
+    }
+
 }
